@@ -1,7 +1,4 @@
-import { FormEvent, useState } from 'react'
-
-// Imgs
-import banner from '../../../public/assets/banner.jpg'
+import { FormEvent } from 'react'
 
 // Styles
 import * as S from './styles'
@@ -9,6 +6,10 @@ import * as S from './styles'
 // Antd
 import { Col, Divider, Form, Input, Row } from 'antd'
 
+// Imgs
+import banner from '../../../public/assets/banner.jpg'
+
+// components
 import Button from '../../components/button/Button'
 
 // Api

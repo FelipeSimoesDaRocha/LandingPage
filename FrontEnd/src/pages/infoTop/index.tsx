@@ -1,11 +1,10 @@
-import { FormEvent, useState } from 'react'
+// Styles
+import * as S from './styles'
 
 // Imgs
 import banner from '../../../public/assets/banner.jpg'
 
-// Styles
-import * as S from './styles'
-
+// components
 import Button from '../../components/button/Button'
 
 export const InfoTop = () => {

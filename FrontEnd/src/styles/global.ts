@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
         --orange: linear-gradient( 90deg,#fc5a17, #df4026);
         --blue: #0c305c;
         --white: #ffffff;
+        --grap: #d3d3d3a6;
         --border-radius: 16px;
     }
     
