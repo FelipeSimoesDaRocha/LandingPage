@@ -1,13 +1,7 @@
 import { FormEvent, useState } from 'react'
 
-// imgs
-import banner from '../../public/assets/banner.jpg'
-
 // Styles
-import * as S from './styles'
-
-// api 
-import { api } from '../services/api';
+import * as S from './styles';
 
 // Pages
 import { InfoBot } from '../pages/infoBot';

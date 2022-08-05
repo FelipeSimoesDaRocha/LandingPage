@@ -27,9 +27,9 @@ function onFinish(event: FormEvent) {
 export const InfoMid = () => {
   return (
     <S.Container id="hero2">
-      <Form>
-        <Row gutter={[24, 24]} >
-          <Col md={24} lg={24} sm={24}>
+      <S.Content>
+
+          <Form>
             <Form.Item>
               <Input placeholder='Nome e sobrenome'></Input>
             </Form.Item>
@@ -41,10 +41,10 @@ export const InfoMid = () => {
             <Form.Item>
               <Input placeholder='Telefone ou WhathsApp'></Input>
             </Form.Item>
-          </Col>
-        </Row>
-        <Button onClick={onFinish} name={'Entrar em contato'} type="secondary" />
-      </Form>
+            <Button onClick={onFinish} name={'Entrar em contato'} type="secondary" />
+          </Form>
+
+      </S.Content>
     </S.Container>
   )
 }

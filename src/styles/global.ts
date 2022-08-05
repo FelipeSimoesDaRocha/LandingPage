@@ -6,7 +6,8 @@ const GlobalStyle = createGlobalStyle`
         --blue: #0c305c;
         --white: #ffffff;
         --grap: #d3d3d3a6;
-        --border-radius: 16px;
+        --smoke: #828282;
+        --border-radius: 25px;
     }
     
     *{
@@ -20,7 +21,9 @@ const GlobalStyle = createGlobalStyle`
     }
     
     html{
-        line-height: 1.15;
+        line-height: 2.15;
+        scroll-behavior: smooth;
+        scroll-padding-top: 90px;
         
         @media (max-width:1080px) {
             font-size: 93.75%; //15px

@@ -9,7 +9,7 @@ import banner from '../../../public/assets/logoFooter.png'
 
 export const Footer = () => {
   return (
-    <S.Container id="Footer">
+    <S.Container id="hero4">
       <img src={banner} />
 
       <S.Content>
