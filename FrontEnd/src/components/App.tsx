@@ -8,9 +8,12 @@ import * as S from './styles'
 
 // api 
 import { api } from '../services/api';
+
+// Pages
 import { InfoBot } from '../pages/infoBot';
-import InfoMid from '../pages/infoMid';
+import { InfoMid } from '../pages/infoMid';
 import { InfoTop } from '../pages/infoTop';
+import { Footer } from '../pages/Footer';
 
 const App = () => {
   return (
@@ -18,7 +21,10 @@ const App = () => {
       <InfoTop />
       <InfoMid />
       <InfoBot />
-    </S.Container>)
+      <Footer />
+    </S.Container>
+
+  )
 }
 
 export default App

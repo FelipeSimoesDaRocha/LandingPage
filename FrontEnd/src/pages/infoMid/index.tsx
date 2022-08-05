@@ -23,30 +23,27 @@ function onFinish(event: FormEvent) {
   api.post('/contact', data)
 }
 
-const App = () => {
+export const InfoMid = () => {
   return (
-    <S.Container >
-      <S.Container id="hero2">
-        <Form>
-          <Row gutter={[24, 24]} >
-            <Col md={24} lg={24} sm={24}>
-              <Form.Item>
-                <Input placeholder='Nome e sobrenome'></Input>
-              </Form.Item>
+    <S.Container id="hero2">
+      <Form>
+        <Row gutter={[24, 24]} >
+          <Col md={24} lg={24} sm={24}>
+            <Form.Item>
+              <Input placeholder='Nome e sobrenome'></Input>
+            </Form.Item>
 
-              <Form.Item>
-                <Input placeholder='Idade'></Input>
-              </Form.Item>
+            <Form.Item>
+              <Input placeholder='Idade'></Input>
+            </Form.Item>
 
-              <Form.Item>
-                <Input placeholder='Telefone ou WhathsApp'></Input>
-              </Form.Item>
-            </Col>
-          </Row>
-          <Button onClick={onFinish} name={'Entrar em contato'} type="secondary"/>
-        </Form>
-      </S.Container>
-    </S.Container>)
+            <Form.Item>
+              <Input placeholder='Telefone ou WhathsApp'></Input>
+            </Form.Item>
+          </Col>
+        </Row>
+        <Button onClick={onFinish} name={'Entrar em contato'} type="secondary" />
+      </Form>
+    </S.Container>
+  )
 }
-
-export default App

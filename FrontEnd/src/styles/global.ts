@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     :root{
-        --orange: #e14125;
+        --orange: linear-gradient( 90deg,#fc5a17, #df4026);
         --blue: #0c305c;
         --white: #ffffff;
         --border-radius: 16px;
