@@ -1,16 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-
+    padding: 2rem 0;
+    background-image: linear-gradient(#092dab, #004db3);
+    color: var(--white);
 
     img{
-        height: 150px;
         width: 150px;
+        height: auto;
         align-self: center;
-    }
-
-    .border{
-        width: 100%;
     }
 `
 

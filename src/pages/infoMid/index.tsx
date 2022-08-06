@@ -28,7 +28,6 @@ export const InfoMid = () => {
   return (
     <S.Container id="hero2">
       <S.Content>
-
           <Form>
             <Form.Item>
               <Input placeholder='Nome e sobrenome'></Input>
@@ -43,7 +42,6 @@ export const InfoMid = () => {
             </Form.Item>
             <Button onClick={onFinish} name={'Entrar em contato'} type="secondary" />
           </Form>
-
       </S.Content>
     </S.Container>
   )
