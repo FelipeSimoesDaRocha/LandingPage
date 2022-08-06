@@ -8,4 +8,20 @@ export const Container = styled.main`
         flex-direction: column;
         text-align: center;
     }
+
+    
+    #logo {
+        width: 80%;
+    }
+    #planos{
+        width: 50%;
+    }
+
+    @media (max-width: 900px){
+        #logo ,#planos{width: 60%}
+    }
+
+    @media (max-width: 650px){
+        #logo{width: 50%}
+    }
 `

@@ -9,7 +9,10 @@ const GlobalStyle = createGlobalStyle`
         --smoke: #828282;
         --border-radius: 18px;
     }
-    
+    ::selection{
+        background: var(--blue);
+        color: var(--white);
+    }
     *{
         padding: 0;
         margin: 0;

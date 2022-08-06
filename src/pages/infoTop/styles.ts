@@ -11,7 +11,29 @@ export const Content = styled.div`
     align-items: center;
 
     .ant-divider{
-        margin: 1rem 0;
         border:1px solid var(--grap);
+        width: 50%;
+    }
+    span{
+        font-weight: 500;
+        text-shadow: 0px 0px 1px #0c305cbf;
+    }
+
+    h3{
+        padding: 6px;
+    }
+
+    .ant-row{
+        margin: 1rem 0;
+    }
+    .showContent{
+        p{
+            font-size: 20px;
+        }
+
+        b{
+            font-weight: 700;
+            text-shadow: 0px 0px 1px #0c305cbf;
+        }
     }
 `

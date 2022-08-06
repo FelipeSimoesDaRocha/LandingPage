@@ -3,6 +3,8 @@ import * as S from './styles'
 
 // Imgs
 import banner from '../../../public/assets/Top/banner.png'
+import logo from '../../../public/assets/Top/logo.png'
+import planos from '../../../public/assets/Top/planos.png'
 
 // components
 import Button from '../../components/button/Button'
@@ -13,16 +15,15 @@ export const Top = () => {
     <S.Container id="hero1">
       <img src={banner} />
       <S.Content>
-
-        <Row>
+        <Row className='showContent'>
           <Col span={24}>
-            <h1>SulAmerica</h1>
+            <img src={logo} id='logo' />
             <p>
-              <span>Possui Mei ou Cnpj e</span>
+              <span>Possui <b>Mei ou Cnpj</b> e</span>
               <br />
               <span> presisa de um plano de</span>
               <br />
-              <span>saude confíavel?</span>
+              <b>saúde confíavel?</b>
             </p>
           </Col>
         </Row>
@@ -87,6 +88,7 @@ export const Top = () => {
             </p>
           </Col>
         </Row>
+        <img src={planos} id='planos' />
       </S.Content>
     </S.Container>
   )
