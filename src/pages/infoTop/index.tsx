@@ -7,7 +7,7 @@ import bannerTop from '../../../public/assets/Top/bannerTop.png'
 // components
 import Button from '../../components/button/Button'
 
-export const InfoTop = () => {
+export const Top = () => {
   return (
     <S.Container id="hero1">
       <img src={bannerTop} />

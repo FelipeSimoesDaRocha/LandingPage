@@ -8,7 +8,7 @@ import { Divider } from 'antd'
 import banner from '../../../public/assets/Footer/logoFooter.png'
 
 
-export const Footer = () => {
+export const Bot = () => {
   return (
     <S.Container id="hero4">
       <img src={banner} />
