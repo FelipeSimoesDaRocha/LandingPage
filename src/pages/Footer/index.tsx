@@ -5,7 +5,8 @@ import * as S from './styles'
 import { Divider } from 'antd'
 
 // Imgs
-import banner from '../../../public/assets/logoFooter.png'
+import banner from '../../../public/assets/Footer/logoFooter.png'
+
 
 export const Footer = () => {
   return (
