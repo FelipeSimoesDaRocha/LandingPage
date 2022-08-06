@@ -5,7 +5,7 @@ import * as S from './styles'
 import { Divider } from 'antd'
 
 // Imgs
-import banner from '../../../public/assets/Footer/logoFooter.png'
+import banner from '../../../public/assets/Footer/logo.png'
 
 
 export const Bot = () => {

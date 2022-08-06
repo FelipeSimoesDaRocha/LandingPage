@@ -2,20 +2,91 @@
 import * as S from './styles'
 
 // Imgs
-import bannerTop from '../../../public/assets/Top/bannerTop.png'
+import banner from '../../../public/assets/Top/banner.png'
 
 // components
 import Button from '../../components/button/Button'
+import { Col, Divider, Row } from 'antd'
 
 export const Top = () => {
   return (
     <S.Container id="hero1">
-      <img src={bannerTop} />
+      <img src={banner} />
       <S.Content>
-        <h1>SulAmerica</h1>
-        <h2>Possui Mei ou Cnpj e presisa de um plano de saude confíavel?</h2>
-        <p>Contrate hoje um dos planos da sul América saúde empresarial e pague 40% mais barato.</p>
+
+        <Row>
+          <Col span={24}>
+            <h1>SulAmerica</h1>
+            <p>
+              <span>Possui Mei ou Cnpj e</span>
+              <br />
+              <span> presisa de um plano de</span>
+              <br />
+              <span>saude confíavel?</span>
+            </p>
+          </Col>
+        </Row>
+
+        <Divider />
+
+        <Row>
+          <Col span={24}>
+            <p>
+              <span>Contrate hoje um dos planos</span>
+              <br />
+              <span> da sul América saúde</span>
+              <br />
+              <span>empresarial e pague 40% </span>
+              <br />
+              <span>  mais barato.</span>
+            </p>
+          </Col>
+        </Row>
+
         <Button name={'Entrar em contato'} type="primary" />
+
+        <Row>
+          <Col span={24}>
+            <h3>Valores Especias</h3>
+            <p>
+              <span>É possivel ter um grande desconto</span>
+              <br />
+              <span>no seu plano usando o CNPJ ou</span>
+              <br />
+              <span>um endereço no interior ou litoral.</span>
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col span={12}>
+            <h3>Rede Credenciada</h3>
+            <p>
+              <span>Atendimento nos principais </span>
+              <br />
+              <span>Hospitais, Laboratórios</span>
+              <br />
+              <span>e médicos.</span>
+            </p>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col span={8}>
+            <h3>Principal companhia de saúde</h3>
+            <p>
+              <span> A Sul América é refência a </span>
+              <br />
+              <span>127 anos,e ocupa o posto de plano</span>
+              <br />
+              <span> de saúde mais tradicional do país</span>
+              <br />
+              <span>e mais bem avaliado pelos</span>
+              <br />
+              <span>seus inúmeros beneficiários.</span>
+            </p>
+          </Col>
+        </Row>
       </S.Content>
     </S.Container>
   )

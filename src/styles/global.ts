@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         --white: #ffffff;
         --grap: #d3d3d3a6;
         --smoke: #828282;
-        --border-radius: 25px;
+        --border-radius: 18px;
     }
     
     *{

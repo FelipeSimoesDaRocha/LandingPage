@@ -22,5 +22,6 @@ export const Content = styled.div`
     .ant-divider{
         margin: 1rem 0;
         border:1px solid var(--white);
+        width: 48%;
     }
 `
